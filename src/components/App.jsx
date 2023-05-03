@@ -11,7 +11,6 @@ import transactions from '../transactions.json'
 
 export const App = () => {
   return (
-    // <MarkUp>
     <>
       <Profile 
         username={user.username}
@@ -25,7 +24,6 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <Transactions items={transactions}/>
-      </>
-    //  </MarkUp>
+    </>
   );
 };
