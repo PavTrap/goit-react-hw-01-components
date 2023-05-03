@@ -1,0 +1,28 @@
+table {
+	border-collapse: collapse;
+	min-width: 400px;
+	margin: 20px auto 0;
+	text-align: center;
+	color: gray;
+ }
+ thead th {
+	background-color: rgba(235, 110, 27, 0.21);
+	color: #414141;
+	border: 1px solid lightgray;
+	padding: 10px;
+ }
+ table td {
+	padding: 10px;
+	border: 1px solid lightgray;
+	font-size: 12px;
+ }
+ tr:nth-child(even) {
+	background-color: rgba(246, 182, 139, 0.21);
+ }
+ tr:nth-child(odd) {
+	background-color: white;
+ }
+ td:first-child {
+	text-align: start;
+	padding-inline-start: 10%;
+ }
