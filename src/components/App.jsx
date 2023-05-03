@@ -22,6 +22,8 @@ export const App = () => {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" stats={data} />
+      <div style={{height: "20px"}} />
+      <Statistics stats={data} />
       <FriendList friends={friends} />
       <Transactions items={transactions}/>
     </>
